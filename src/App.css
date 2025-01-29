@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.heading{
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.input{
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 80%;
+    height: 40px;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.addBtn{
+    transition: transfrom 0.1s;
+}
+.addBtn:hover{
+    transform: scale(1.03);
+}
+
+.editBtn{
+    transition: transform 0.1s;
+}
+
+.editBtn:hover{
+    transform: scale(1.03);
+}
+
+.editBtn svg{
+    font-size: 30px;
+}
+
+.deleteBtn {
+    transition: transform 0.1s;
+}
+
+.deleteBtn:hover {
+    transform: scale(1.03);
+}
+.deleteBtn svg{
+    font-size: 30px;
+    
+}
